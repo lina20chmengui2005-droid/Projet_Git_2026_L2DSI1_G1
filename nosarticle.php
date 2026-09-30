@@ -8,6 +8,7 @@
 <body>
     <?php 
     $article = ["imprimante" , "style" , "Enceintes" , "Tablette"] ; 
+    echo isset($article)?"<h1>liste des articles":"aucun article a afficher">
     ?>
     <ul>
         <?php
@@ -17,5 +18,6 @@
          <?php
          }
           ?>  
+    </ul>
 </body>
 </html>
